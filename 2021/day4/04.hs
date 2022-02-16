@@ -1,3 +1,6 @@
+{-# OPTIONS_GHC -Wno-unrecognised-pragmas #-}
+{-# HLINT ignore "Use tuple-section" #-}
+
 type Board = [[Int]]
 type BoardData = [[(Int, Bool)]]
 
